@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "nome": "Camiseta",
+        "preco": 29.90,
+        "descricao": "Camiseta de algodão, confortável e estilosa.",
+        "categoria": "Vestuário"
+    },
+    {
+        "id": 2,
+        "nome": "Tênis Esportivo",
+        "preco": 199.90,
+        "descricao": "Tênis ideal para corrida e atividades físicas.",
+        "categoria": "Calçados"
+    },
+    {
+        "id": 3,
+        "nome": "Relógio Digital",
+        "preco": 89.90,
+        "descricao": "Relógio com cronômetro e alarme, resistente à água.",
+        "categoria": "Acessórios"
+    }
+]
