@@ -9,5 +9,8 @@
         <module name="meu-projeto-java" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Kipper_Java" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
