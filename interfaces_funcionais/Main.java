@@ -12,13 +12,13 @@ public class Main {
             new User("Charlie", 35)
         );
         /*Apresenta a lista completa*/
-        //users.forEach(System.out::println);
+        users.forEach(System.out::println);
 
         /*Apresenta apenas os nomes*/
-        printStringValues(User::name, users);
+        //printStringValues(User::name, users);
     }
     private static void printStringValues(
-        Function <User, String> callback, List<User> users) {
+        Function <User, String> callback, List<User> users) { // Function é uma interface funcional que recebe um parâmetro e retorna um valor e callback é o nome do parâmetro que representa a função que será passada como argumento
         users.forEach(
             user -> System.out.println(callback.apply(user))
         );
