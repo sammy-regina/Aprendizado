@@ -1,3 +1,5 @@
+package introducao;
+
 public class Exemplo_copilot {
     // Crie uma constante chamada "produtos" contendo uma lista de objetos Json.
     // Cada objeto deve representar um produto com as seguintes propriedades:

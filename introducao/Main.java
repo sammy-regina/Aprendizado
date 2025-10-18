@@ -1,3 +1,5 @@
+package introducao;
+
 import classificandoPessoa.Pessoa;
 
 public class Main {

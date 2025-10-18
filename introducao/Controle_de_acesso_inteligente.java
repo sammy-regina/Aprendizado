@@ -1,3 +1,5 @@
+package introducao;
+
 import java.util.Scanner;
 
 public class Controle_de_acesso_inteligente {
