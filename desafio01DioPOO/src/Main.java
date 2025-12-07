@@ -1,5 +1,6 @@
 package desafio01DioPOO.src;
 
+import desafio01DioPOO.src.dominio.Conteudo;
 import desafio01DioPOO.src.dominio.Curso;
 import desafio01DioPOO.src.dominio.Mentoria;
 
