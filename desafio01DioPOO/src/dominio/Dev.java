@@ -15,7 +15,7 @@ public class Dev {
     }
 
     public void progredir() {
-        Optional<Conteudo> conteudo = this.conteudosInscritos.stream().findFirst(); // Pega o primeiro conteúdo inscrito
+        Optional<Conteudo> conteudo = this.conteudosInscritos.stream().findFirst(); // Pega o primeiro conteúdo inscrito, optional (uma forma segura de lidar com valores que podem estar ausentes)
         if (conteudo.isPresent()) {
             this.conteudosConcluidos.add(conteudo.get()); // Adiciona o conteúdo concluído ao conjunto de concluídos
             this.conteudosInscritos.remove(conteudo.get()); // Remove o conteúdo do conjunto de inscritos
@@ -27,8 +27,8 @@ public class Dev {
     public double calcularTotalXp() {
         return this.conteudosConcluidos
                 .stream() // uma stream é usada para processar coleções de forma funcional, ela permite operações como map, filter, reduce, etc.
-                .mapToDouble(conteudo -> conteudo.calcularXp())
-                .sum(); // retrna a soma do XP de todos os conteúdos concluídos
+                .mapToDouble(conteudo -> conteudo.calcularXp()) // mapeia cada conteúdo para seu valor de XP
+                .sum(); // soma o XP de todos os conteúdos concluídos
     }
 
     // Getters and Setters
